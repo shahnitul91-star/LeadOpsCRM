@@ -133,11 +133,13 @@ LeadOpsCRM/
 ## 🚀 Technology Stack
 
 ### Frontend
-- React.js
-- Redux/Context API
-- Tailwind CSS / Material-UI
-- React Query
-- Chart.js / Recharts
+- Next.js 16 (App Router with TypeScript)
+- React 19
+- Tailwind CSS
+- Vercel Speed Insights
+- Redux/Context API (planned)
+- React Query (planned)
+- Chart.js / Recharts (planned)
 
 ### Backend
 - Node.js / Express.js
@@ -182,6 +184,7 @@ LeadOpsCRM/
 - Caching mechanisms
 - Database indexing
 - CDN for static assets
+- **Vercel Speed Insights**: Real-time performance monitoring and Core Web Vitals tracking
 
 ## 🔄 Real-time Sync Features
 
@@ -203,6 +206,48 @@ LeadOpsCRM/
 - LeadHistory
 - LeadAssignments
 - Reports
+
+## 🛠️ Getting Started
+
+### Frontend Setup
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+5. Build for production:
+   ```bash
+   npm run build
+   npm start
+   ```
+
+### Vercel Speed Insights
+
+The application is configured with Vercel Speed Insights to monitor real-time performance metrics and Core Web Vitals. To enable Speed Insights in production:
+
+1. Deploy your application to Vercel
+2. Navigate to your project dashboard on Vercel
+3. Go to the Speed Insights tab
+4. Click "Enable" to activate performance tracking
+
+Once enabled, you'll be able to monitor:
+- Real User Monitoring (RUM) data
+- Core Web Vitals (LCP, FID, CLS)
+- Performance scores across different pages
+- Geographic performance insights
 
 ## 📞 Support & Documentation
 
